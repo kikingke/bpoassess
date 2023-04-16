@@ -10,15 +10,16 @@
                 </div>
                 <div class="row">
                     <div class="col-6 btn-l">
-                        <p><span>Location:</span>{{job.location}}</p>
-                        <p><span>Role:</span>{{job.role}}</p>
+                        <p class="text-capitalize"><span>Location: </span>{{job.location}}</p>
+                        <p class="text-capitalize"><span>Role: </span>{{job.role}}</p>
                     </div>
                     <div class="col-6 btn-c">
-                    <button class="btn btn-primary" >Apply to this job</button>
+                    <button class="btn btn-primary" @click.prevent="getsingleJOB(job.id)" >Apply to this job</button>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div>
+
 

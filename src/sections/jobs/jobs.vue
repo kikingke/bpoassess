@@ -1,9 +1,10 @@
 <script setup>
 import jobsData from '../../data/apifake.js'
-import { computed } from 'vue'
+import { ref,computed } from 'vue'
 import { miStore } from '../../data/store'
+import Swal from 'sweetalert2/dist/sweetalert2';
 const mipinia = miStore()
-
+const detail = ref()
 const LOCATION_FILTERS = {
   USA: 'usa',
   NICARAGUA: 'nicaragua',
@@ -32,7 +33,35 @@ const jobs = computed(() => {
  
 })
 
+function getsingleJOB(ID) {
+    const justonejob = jobsData.filter(j => j.id === ID)
+    console.log('dato de api', justonejob);
 
+    justonejob.forEach(function (arrayItem) {
+        Swal.fire({
+            title: arrayItem.job,
+            text: arrayItem.description,
+            icon: 'warning',
+            showCancelButton: true,
+            confirmButtonColor: '#3085d6',
+            cancelButtonColor: '#d33',
+            confirmButtonText: 'Apply',
+            footer: `<div class="d-flex justify-content-between w-100">
+            <span class="fw-bold text-capitalize">Location: ${arrayItem.location}</span>
+                     <span class="fw-bold text-capitalize">Role: ${arrayItem.role}</span>
+                     </div>`
+        }).then((result) => {
+            if (result.isConfirmed) {
+                Swal.fire(
+                    'You Applied',
+                    'Successful Application Simulation',
+                    'success'
+                )
+            }
+        })
+        console.log(arrayItem);
+    });
+}
 
 </script>
 
