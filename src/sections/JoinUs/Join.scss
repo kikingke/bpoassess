@@ -1,33 +1,79 @@
 .Join-box{
 background-color: #e5e5e5;
-padding: 20px 0px;
-        .title-join{
-            text-transform: capitalize;
+padding: 0rem;
+.title-joinmobile{
+    text-transform: capitalize;
             margin-top: 1.5rem;
             margin-bottom: 2rem;
             font-size: 3rem;
+            text-align: center;
+            display: block;
+            padding-top: 3rem;
+}
+        .title-joinbig{
+            display: none;
         }
         .right{
             padding: 30px 37px;
             text-align: justify;
         }
 
-
-
 }
 
 @media(min-width:768px){
-    .title-join{
-        text-transform: capitalize;
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-        font-size: 3rem;
-    }
-    .right{
-        padding: 30px 37px;
-        text-align: justify;
-    }
-   
+    
+    .Join-box{
+        background-color: #e5e5e5;
+        .title-joinmobile{
+           display: none;
+        }
+                .title-joinbig{
+                    text-transform: capitalize;
+                    margin-top: 1.5rem;
+                    margin-bottom: 1rem;
+                    font-size: 1.5rem;
+                    display: block;
+                }
+                .left{
+                    padding: 40px 15px 0px 0px;
+                }
+                .right{
+                    padding: 30px 24px 0px 0px;
+                    text-align: justify;
+                    .text-1, .text-2,.text-3{
+                        margin-bottom: 1rem;
+                        font-size: 0.85rem;
+                    }
+                }
+        }
+
+}
+
+@media(min-width:1100px){
+    
+    
+    .Join-box{
+        background-color: #e5e5e5;
+        padding: 3rem 8rem 0rem 0rem;
+        .title-joinmobile{
+           display: none;
+        }
+                .title-joinbig{
+                    text-transform: capitalize;
+                    margin-top: 1.5rem;
+                    margin-bottom: 2rem;
+                    font-size: 3rem;
+                    display: block;
+                }
+                .right{
+                    padding: 30px 37px;
+                    text-align: justify;
+                    .text-1, .text-2,.text-3{
+                        margin-bottom: 2rem;
+                        font-size: 1.2rem;
+                    }
+                }
+        }
 
 
 }

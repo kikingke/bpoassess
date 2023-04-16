@@ -1,27 +1,34 @@
 .jobscontainer{
     .joblegend{
         text-align: center;
-        padding: 4rem 0;
+        padding: 1rem 0;
         font-weight: bold;
-        font-size: 4rem;
+        font-size: 2rem;
     }
     .jwrapper{
         display: grid;
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(1, 1fr);
         grid-template-rows: repeat(4, 1fr);
         grid-column-gap: 0px;
         grid-row-gap: 30px;
-        padding: 25px;
+        padding: 15px;
         place-items: center;
         .card{
-            width: 550px;
+            width: 100%;
             border-radius: 20px;
             border: 1px solid var(--blueDark);
             box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
             .card-body{
-                padding: 2rem 2rem 1rem 2rem;
+                padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+                h1{
+                    font-size: 1.3rem;
+                }
+                p{
+                    font-size: 0.8rem;
+                }
                 .btn-l{
                     p{
+                        font-size: 0.8rem;
                         span{
                             font-weight: bold;
                         }
@@ -30,15 +37,194 @@
                 .btn-c{
                     text-align: right;
                     .btn-primary{
-                        padding: 16px 10px!important;
+                        padding: 12px 8px!important;
                         border-radius: 15px;
                         background: var(--blueDark);
                         border: 1px solid var(--blueDark);
+                        font-size: 0.8rem;
+                        margin-top: 10px;
                         &:hover{
                             font-weight: bold;
                             color: var(--blueDark);
                         background: #fff;
                         border: 1px solid var(--blueDark);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:576px){
+
+}
+
+@media(min-width:768px){
+    .jobscontainer{
+        .joblegend{
+            text-align: center;
+            padding: 1rem 0;
+            font-weight: bold;
+            font-size: 2rem;
+        }
+        .jwrapper{
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 30px;
+            padding: 15px;
+            place-items: center;
+            .card{
+                width: 100%;
+                border-radius: 20px;
+                border: 1px solid var(--blueDark);
+                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+                .card-body{
+                    padding: 1.2rem 1.2rem 0.5rem 1.2rem;
+                    h1{
+                        font-size: 1.3rem;
+                    }
+                    p{
+                        font-size: 0.8rem;
+                    }
+                    .btn-l{
+                        p{
+                            font-size: 0.8rem;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .btn-c{
+                        text-align: right;
+                        .btn-primary{
+                            padding: 12px 8px!important;
+                            border-radius: 15px;
+                            background: var(--blueDark);
+                            border: 1px solid var(--blueDark);
+                            font-size: 0.8rem;
+                            margin-top: 10px;
+                            &:hover{
+                                font-weight: bold;
+                                color: var(--blueDark);
+                            background: #fff;
+                            border: 1px solid var(--blueDark);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media(min-width:992px){
+    .jobscontainer{
+        .joblegend{
+            text-align: center;
+            padding: 4rem 0;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+        .jwrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 30px;
+            padding: 20px;
+            place-items: center;
+            .card{
+                
+                border-radius: 20px;
+                border: 1px solid var(--blueDark);
+                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+                .card-body{
+                    padding: 1rem;
+                    .btn-l{
+                        p{
+                            margin-bottom: 0;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .btn-c{
+                        text-align: right;
+                        .btn-primary{
+                            padding: 16px 10px!important;
+                            border-radius: 15px;
+                            background: var(--blueDark);
+                            border: 1px solid var(--blueDark);
+                            &:hover{
+                                font-weight: bold;
+                                color: var(--blueDark);
+                            background: #fff;
+                            border: 1px solid var(--blueDark);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media(min-width:1100px){
+    .jobscontainer{
+        .joblegend{
+            text-align: center;
+            padding: 4rem 0;
+            font-weight: bold;
+            font-size: 4rem;
+        }
+        .jwrapper{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(4, 1fr);
+            grid-column-gap: 10px;
+            grid-row-gap: 30px;
+            padding: 20px;
+            place-items: center;
+            .card{
+                max-width: 34rem;
+                border-radius: 20px;
+                border: 1px solid var(--blueDark);
+                box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+                .card-body{
+                    padding: 1rem;
+                    h1{
+                        font-size: 2rem;
+                    }
+                    p{
+                        font-size: 1rem;
+                    }
+                    .btn-l{
+                        p{
+                            font-size: 1rem;
+                            margin-bottom: 0;
+                            span{
+                                font-weight: bold;
+                            }
+                        }
+                    }
+                    .btn-c{
+                        text-align: right;
+                        .btn-primary{
+                            padding: 16px 10px!important;
+                            border-radius: 15px;
+                            background: var(--blueDark);
+                            border: 1px solid var(--blueDark);
+                            font-size: 1.2rem;
+                            &:hover{
+                                font-weight: bold;
+                                color: var(--blueDark);
+                            background: #fff;
+                            border: 1px solid var(--blueDark);
+                            }
                         }
                     }
                 }
