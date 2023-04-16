@@ -1,27 +1,95 @@
 .footer {
     background-color: #e5e5e5;
-    padding: 3rem 8rem 0rem 0rem;
+    padding: 3rem;
 
     .fwrapper {
-        .left {
-            .imgfooter {
-                height: 20px;
+        .rowi{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            .left {
+                .imgfooter {
+                    height: 300px;
+                }
             }
-        }
-
-        .right {
-            h3 {}
-
-            p {}
-
-            .social {
-                a {
-                    img {
-                        width: 50px;
-                        height: 50px;
+    
+            .right {
+                text-align: center;
+                padding: 2rem;
+                h3 {
+                    font-size: 4rem;
+                    font-weight: 800;
+                }
+    
+                p {
+                    font-style: italic;
+                    margin-bottom: 3px;
+                }
+    
+                .social {
+                    margin-top: 3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    a {
+                        margin: 0.75rem 0rem;
+                        img {
+                            width: 50px;
+                            height: 50px;
+                        }
                     }
                 }
             }
+        }
+     
+    }
+    p.lastline{
+        text-align: center;
+        margin-top: 1.5rem;
+    }
+}
+
+@media(min-width:768px){
+    .footer {
+        padding: 3rem;
+        .fwrapper {
+            .rowi{
+                flex-direction: row;
+                .left {
+                    .imgfooter {
+                        height: 400px;
+                    }
+                }
+        
+                .right {
+                    text-align: left;
+                    padding: 3rem;
+                    h3 {
+                        font-size: 4rem;
+                    }
+        
+                    p {
+                        margin-bottom: 3px;
+                    }
+        
+                    .social {
+                        margin-top: 4rem;
+                        display: flex;
+                        justify-content: space-between;
+                        a {
+                            margin: 0.75rem 0rem;
+                            img {
+                                width: 50px;
+                                height: 50px;
+                            }
+                        }
+                    }
+                }
+            }
+         
+        }
+        p.lastline{
+            margin-top: 3rem;
         }
     }
 }

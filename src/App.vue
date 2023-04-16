@@ -1,11 +1,11 @@
 <script setup>
-import navbar from './sections/navbar/navbar.vue'
-import hero from './sections/hero/hero.vue'
+import navbar from    './sections/navbar/navbar.vue'
+import hero from      './sections/hero/hero.vue'
 import searchbox from './sections/searchbox/searchbox.vue'
-import jobs from './sections/jobs/jobs.vue'
-import join from './sections/JoinUs/Join.vue'
-import banner from './sections/banner/banner.vue'
-import footer from './sections/footer/footer.vue'
+import jobs from      './sections/jobs/jobs.vue'
+import join from      './sections/JoinUs/Join.vue'
+import banner from    './sections/banner/banner.vue'
+import footeri from   './sections/footer/footer.vue'
 </script>
 
 <template>
@@ -19,7 +19,7 @@ import footer from './sections/footer/footer.vue'
    <join />
    <banner/>
   </main>
-  <footer/>
+  <footeri/>
 </template>
 
 <style scoped>
