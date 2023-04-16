@@ -1,6 +1,18 @@
 .jobscontainer{
+    .joblegend{
+        text-align: center;
+        padding: 4rem 0;
+        font-weight: bold;
+        font-size: 4rem;
+    }
     .jwrapper{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 30px;
         padding: 25px;
+        place-items: center;
         .card{
             width: 550px;
             border-radius: 20px;
