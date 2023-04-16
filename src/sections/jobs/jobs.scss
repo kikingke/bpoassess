@@ -1,0 +1,36 @@
+.jobscontainer{
+    .jwrapper{
+        padding: 25px;
+        .card{
+            width: 550px;
+            border-radius: 20px;
+            border: 1px solid var(--blueDark);
+            box-shadow: 0px 0px 15px 5px rgba(0,0,0,0.2);
+            .card-body{
+                padding: 2rem 2rem 1rem 2rem;
+                .btn-l{
+                    p{
+                        span{
+                            font-weight: bold;
+                        }
+                    }
+                }
+                .btn-c{
+                    text-align: right;
+                    .btn-primary{
+                        padding: 16px 10px!important;
+                        border-radius: 15px;
+                        background: var(--blueDark);
+                        border: 1px solid var(--blueDark);
+                        &:hover{
+                            font-weight: bold;
+                            color: var(--blueDark);
+                        background: #fff;
+                        border: 1px solid var(--blueDark);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
