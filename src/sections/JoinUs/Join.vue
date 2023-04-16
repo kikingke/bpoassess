@@ -4,4 +4,4 @@
 
 <template src="./Join.html"/>
 
-<style src="Join.scss""/>
+<style src="./Join.scss"/>
