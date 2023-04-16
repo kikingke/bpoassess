@@ -2,96 +2,96 @@
     {
         "id":"crypto.randomUUID()",
         "job": "Chief Medical Resident",
-        "location": "Nicaragua",
-        "role": "Doctor",
+        "location": "colombia",
+        "role": "doctor",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "UMMG Staff Physician",
-        "location": "Nicaragua",
-        "role": "Doctor",
+        "location": "colombia",
+        "role": "doctor",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "UMMG Staff Physician",
-        "location": "Nicaragua",
-        "role": "Doctor",
+        "location": "colombia",
+        "role": "doctor",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Per Diem Staff Physician",
-        "location": "Nicaragua",
-        "role": "Doctor",
+        "location": "usa",
+        "role": "doctor",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Client Advisor",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "usa",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Human Genetics",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "nicaragua",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Substitute Teacher",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "nicaragua",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Advisor, Cane Success",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "nicaragua",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Geek Squad Agent",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "nicaragua",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID(",
         "job": "Purchaser",
-        "location": "Nicaragua",
-        "role": "Support Role",
+        "location": "nicaragua",
+        "role": "support role",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Customer Service",
-        "location": "Nicaragua",
-        "role": "Call Center Agent",
+        "location": "nicaragua",
+        "role": "call center agent",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     },
     {
         "id": "crypto.randomUUID()",
         "job": "Customer Care Agent",
-        "location": "Nicaragua",
-        "role": "Call Center Agent",
+        "location": "nicaragua",
+        "role": "call center agent",
         "description":
             "simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
     }
