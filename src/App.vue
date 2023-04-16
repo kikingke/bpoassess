@@ -5,6 +5,7 @@ import searchbox from './sections/searchbox/searchbox.vue'
 import jobs from './sections/jobs/jobs.vue'
 import join from './sections/JoinUs/Join.vue'
 import banner from './sections/banner/banner.vue'
+import footer from './sections/footer/footer.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import banner from './sections/banner/banner.vue'
    <join />
    <banner/>
   </main>
+  <footer/>
 </template>
 
 <style scoped>
